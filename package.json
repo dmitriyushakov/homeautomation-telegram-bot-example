@@ -1,0 +1,32 @@
+{
+  "name": "homeautomation-telegram-bot-example",
+  "version": "1.0.0",
+  "description": "Control home devices using Telegram and MQTT",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriyushakov/homeautomation-telegram-bot-example.git"
+  },
+  "keywords": [
+    "home",
+    "automation",
+    "mqtt",
+    "nodejs",
+    "telegram",
+    "bot"
+  ],
+  "author": "Dmitriy Ushakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitriyushakov/homeautomation-telegram-bot-example/issues"
+  },
+  "homepage": "https://github.com/dmitriyushakov/homeautomation-telegram-bot-example#readme",
+  "dependencies": {
+    "got": "^8.3.0",
+    "mqtt": "^2.17.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
